@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles.css" rel="stylesheet">
+    <title>Game Josh</title>
+</head>
+<body>
+    <div class="background-image"></div>
+    <div class="container">
+        <div class="container-contenido">
+            <div class="container-informacion">
+                <div class="container-texto">
+                    <h1></h1>
+                    <p class="texto_parrafo"></p>
+                </div>
+                <input type="number" id="valorUsuario" min="1" max="10" class="container-input">
+                <div class="chute container-botones">
+                    <button class="container-boton" onclick="verificarIntento();">Intentar</button>
+                    <button onclick="reiniciarJuego();" class="container-boton" id="reiniciar" disabled>Nuevo Juego</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
